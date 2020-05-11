@@ -1,9 +1,10 @@
 require 'pry'
 
 def my_all?(collection)
-counter = 
-  while
-  counter += 1
+i = 0
+  while i < collection.length
+  yield()
+  i += 1
 end
 
 end
