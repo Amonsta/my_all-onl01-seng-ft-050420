@@ -7,5 +7,9 @@ def my_all?(collection)
   new_array << yield(collection{i}) 
   i += 1
   end
-new_array
+if new_array.include?(false)
+  false
+else
+  true
+  end
 end
